@@ -1,0 +1,47 @@
+body, html {
+    scroll-snap-type: y proximity;
+    scroll-padding-top: 2rem;
+}
+
+.result {
+    width: 100%;
+    max-width: 1500px;
+    transform: translateY(8vh);
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20vh;
+    background-color: #242526;
+}
+
+.label {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Nunito;
+}
+
+.label > a {
+    color: #fff;
+}
+
+.info {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-family: Nunito;
+}
+
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
